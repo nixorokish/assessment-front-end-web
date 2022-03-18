@@ -9,8 +9,8 @@ body {
 
 header {
 	text-align: center;
-	padding: 10px;
-	font-size: 10vh;
+	padding-bottom: 10px;
+	font-size: 110px;
 }
 
 nav {
@@ -49,9 +49,19 @@ img {
 	max-width: 300px;
 }
 
+img.neighborhood {
+	max-width: 30%;
+}
+
 ul.simple-list {
 	position: relative;
 	left: -10px;
+}
+
+div.neighborhood-photos {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 3vh;
 }
 
 div.lists {
@@ -63,6 +73,12 @@ div.favorite-buttons {
 	display: flex;
 	justify-content: center;
 	gap: 10px
+}
+
+div.bawx {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
 }
 
 div.survey {

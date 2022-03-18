@@ -1,11 +1,20 @@
 console.log("hello world");
 
-
+const nameInput = document.querySelector(`#name`)
+const message = document.querySelector(`#message`)
+const google = document.querySelector(`#google`)
+const stumbleupon = document.querySelector(`#stumbleupon`)
+const friend = document.querySelector(`#friend`)
 
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
 	alert("submitted!");
+	nameInput.value=``
+	message.value=``
+	google.checked=false;
+	stumbleupon.checked=false;
+	friend.checked=false;
 }
 
 

@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+	<head>
+		<title>Homepage</title>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+<header>kseebug</header>
 
-</head>
 <body>
 	<nav>
 		<ol>
 	        <li class="crumb"><a href="./home.html">Home</a></li>
 	        <li class="crumb"><a href="./profile.html">Profile</a></li>
 	        <li class="crumb"><a href="./about.html">About</a></li>
+			<li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
 	    </ol>
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
-		<p>hello world!</p>
+		<div class="bawx">
+			<div>
+				<h1>Welcome to this little website.</h1>
+				<p>Hello world!</p>
 
-		<img id="img" src="https://i.etsystatic.com/26454889/r/il/4e633a/3080913770/il_1588xN.3080913770_29l7.jpg">
-		<p>We're very happy to have you here. Thanks for coming by and supporting us.</p>
-		<h3>Reasons why we love you:</h3>
-		<ul>
-			<li>You're rad</li>
-			<li>You're here</li>
-			<li>You're not a bot</li>
-		</ul>
+				<img id="img" src="https://i.etsystatic.com/26454889/r/il/4e633a/3080913770/il_1588xN.3080913770_29l7.jpg">
+				<p>We're very happy to have you here. Thanks for coming by.</p>
+			</div>
+			<div>
+				<br><br><br>
+				<h3>Reasons why we love you:</h3>
+				<ul>
+					<li>You're rad</li>
+					<li>You're here</li>
+					<li>You're not a bot</li>
+				</ul>
+			</div>
+		</div>
 		<h2>Contact Us</h2>
 		<form id="contact">
 			Your name:
-			<input type="text"><br>
+			<input type="text" id="name"><br>
 
 			Message:
-			<input type="textarea"><br>
+			<input type="textarea" id="message"><br>
 
 			How did you hear about us?<br>
-			<input class="inline" type="checkbox">Google</input><br>
-			<input class="inline" type="checkbox">Stumbleupon</input><br>
-			<input class="inline" type="checkbox">A friend</input><br>
+			<input class="inline" type="checkbox" id="google">Google</input><br>
+			<input class="inline" type="checkbox" id="stumbleupon">Stumbleupon</input><br>
+			<input class="inline" type="checkbox" id="friend">A friend</input><br>
 			<input type="submit" value="Submit">
 			
 
