@@ -4,7 +4,8 @@ body {
   padding: 6rem;
   max-width: 100vw;
   margin: 2rem auto;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:rgb(58, 19, 19)
 }
 
 header {
@@ -93,8 +94,14 @@ div.radio-buttons {
 button {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.774);
-	font-family:'Courier New', Courier, monospace;
+	font-family:'Courier Bold', Courier, monospace;
 	box-shadow: 0 4px 8px 0 rgb(148, 148, 148);
+}
+
+button.oh-boy {
+	background-color: yellow;
+	color: rgb(82, 61, 29);
+	height: 30px;
 }
 
 button:hover {
